@@ -1,0 +1,27 @@
+Animation keyframes range per action
+
+Idle 0
+Idle_Up 8
+Idle_Right 16
+Idle_Left 24
+
+Pushing_Down 1-2
+Pushing_Up 9-10
+Pushing_Right 17-18
+Pushing_Left 25-26
+
+Pulling_Up 3-4
+Pulling_Down 11-12
+Pulling_Left 19-20
+Pulling_Right 27-28
+
+Walk_Down 32-37
+Walk_Up 40-45
+Walk_Right 48-53
+Walk_Left 56-61
+
+Jumping_Front 5-7-5
+Jumping_Back 13-15-13
+Jumping_Right 21-23-21
+Jumping_Left 29-31-29
+
