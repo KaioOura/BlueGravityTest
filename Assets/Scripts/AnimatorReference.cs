@@ -8,6 +8,17 @@ public class AnimatorReference : MonoBehaviour
     private List<Animator> _animators = new List<Animator>();
 
     [SerializeField] 
+    private AnimationState _hairAnimationStates;
+    [SerializeField] 
+    private AnimationState _hatAnimationStates;
+    [SerializeField] 
+    private AnimationState _upperAnimationStates;
+    [SerializeField] 
+    private AnimationState _bottomAnimationStates;
+    [SerializeField] 
+    private AnimationState _fullBodyAnimationStates;
+    
+    [SerializeField] 
     private AnimatorOverrideController _animatorOverrideController;
     
     [SerializeField]
@@ -45,16 +56,33 @@ public class AnimatorReference : MonoBehaviour
     void Update()
     {
         test = !test;
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            _animatorOverrideController["Hat_Idle"] = anim;
-        }
+
     }
 
     void InitAnimatorLayers()
     {
         EnableAnimatorLayers();
         UpdateRunTimeAnimatorController();
+    }
+
+    public void OnUpdateAnimations(int i, AnimationsPack animationsPack)
+    {
+        switch (i)
+        {
+            case 0: //Hair
+            {
+                break;
+            }
+            case 1: //Hat
+            {
+                _animatorOverrideController[_hatAnimationStates.Idle] = animationsPack.Idle;
+                _animatorOverrideController[_hatAnimationStates.Up] = animationsPack.Up;
+                _animatorOverrideController[_hatAnimationStates.Down] = animationsPack.Down;
+                _animatorOverrideController[_hatAnimationStates.Right] = animationsPack.Right;
+                _animatorOverrideController[_hatAnimationStates.Left] = animationsPack.Left;
+                break;
+            }
+        }
     }
 
     void UpdateRunTimeAnimatorController()
@@ -96,4 +124,14 @@ public class AnimatorReference : MonoBehaviour
             an.SetFloat(param, value);
         }
     }
+}
+
+[System.Serializable]
+public class AnimationState
+{
+    public AnimationClip Idle;
+    public AnimationClip Up;
+    public AnimationClip Down;
+    public AnimationClip Right;
+    public AnimationClip Left;
 }

@@ -12,9 +12,9 @@ public class Equipment : Item
 
 public enum EquipmentType
 {
-    Hair,
-    Hat,
-    Upper,
-    Bottom,
-    FullBody
+    Hair = 0,
+    Hat = 1,
+    Upper = 2,
+    Bottom = 3,
+    FullBody = 4
 }
