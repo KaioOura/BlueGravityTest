@@ -31,9 +31,7 @@ public class AnimatorReference : MonoBehaviour
     private Animator _bottomAnimator;
     [SerializeField]
     private Animator _fullBodyPieceAnimator;
-
-    [SerializeField] private AnimationClip anim;
-
+    
     private bool test;
 
     private void Awake()
@@ -55,8 +53,6 @@ public class AnimatorReference : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        test = !test;
-
     }
 
     void InitAnimatorLayers()

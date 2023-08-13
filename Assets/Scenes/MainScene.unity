@@ -123,17 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &158075933 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 111216382674780791, guid: 37f8cb327363b174bb270f0be9e5dcfc, type: 3}
-  m_PrefabInstance: {fileID: 790804170}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76d959d2c01379640b5c64daa83bed29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &329346664
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,7 +224,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 111216381968400917, guid: 37f8cb327363b174bb270f0be9e5dcfc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.628354
+      value: 0.13
       objectReference: {fileID: 0}
     - target: {fileID: 111216381968400917, guid: 37f8cb327363b174bb270f0be9e5dcfc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -273,48 +262,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 111216382290127884, guid: 37f8cb327363b174bb270f0be9e5dcfc, type: 3}
-      propertyPath: m_Size.x
-      value: 0.64
-      objectReference: {fileID: 0}
-    - target: {fileID: 111216382290127884, guid: 37f8cb327363b174bb270f0be9e5dcfc, type: 3}
-      propertyPath: m_Size.y
-      value: 0.64
-      objectReference: {fileID: 0}
-    - target: {fileID: 111216382290127884, guid: 37f8cb327363b174bb270f0be9e5dcfc, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 114597381, guid: 25f78fac845ba91499315899ca6a885b, type: 3}
-    - target: {fileID: 111216382290127884, guid: 37f8cb327363b174bb270f0be9e5dcfc, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 111216382674780790, guid: 37f8cb327363b174bb270f0be9e5dcfc, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 111216382674780791, guid: 37f8cb327363b174bb270f0be9e5dcfc, type: 3}
-      propertyPath: _animatorOverrideController
-      value: 
-      objectReference: {fileID: 22100000, guid: 0b05f45caa697da4cab7eb97f3c262cf, type: 2}
-    m_RemovedComponents:
-    - {fileID: 111216382674780790, guid: 37f8cb327363b174bb270f0be9e5dcfc, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37f8cb327363b174bb270f0be9e5dcfc, type: 3}
---- !u!1 &926669710 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 111216381968400914, guid: 37f8cb327363b174bb270f0be9e5dcfc, type: 3}
-  m_PrefabInstance: {fileID: 790804170}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &926669712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 926669710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48a35d28106668640a15b6ebc872e829, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _animatorReference: {fileID: 158075933}

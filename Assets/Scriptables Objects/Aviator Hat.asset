@@ -15,9 +15,10 @@ MonoBehaviour:
   _itemName: 
   _description: 
   _itemType: 0
-  _idle: {fileID: 0}
-  _walkUp: {fileID: 0}
-  _walkDown: {fileID: 0}
-  _walkRight: {fileID: 0}
-  _walkLeft: {fileID: 0}
-  _equipmentType: 0
+  _animationsPack:
+    _idle: {fileID: 7400000, guid: d0459ade1a9c6a94aa3e16a51d755e85, type: 2}
+    _up: {fileID: 7400000, guid: 4e2128d2616d1564a8781519e2b2573f, type: 2}
+    _down: {fileID: 7400000, guid: bc3d1698b5f48ec45bccacc01ed1bc6f, type: 2}
+    _right: {fileID: 7400000, guid: c436a15e64e6dc34184bafc9f20d8cd9, type: 2}
+    _left: {fileID: 7400000, guid: 45f04f36d1273744c8ba7458c9f2656e, type: 2}
+  _equipmentType: 1
