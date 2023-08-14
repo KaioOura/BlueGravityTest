@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9549b52333a1abc4f8138b4d7e13eecd, type: 3}
+  m_Name: Golden Armor
+  m_EditorClassIdentifier: 
+  _itemName: Golden Armor
+  _sprite: {fileID: 1685476686, guid: ff20928a18b825a49b37274e05a5abd4, type: 3}
+  _description: 
+  _itemType: 0
+  _price: 120
+  _animationsPack:
+    _idle: {fileID: 7400000, guid: d90e7cb3f59746e4b8ff873b34c6a2c0, type: 2}
+    _up: {fileID: 7400000, guid: 215f4e26b5a8bc24099d0cb9e6828229, type: 2}
+    _down: {fileID: 7400000, guid: bd2758928e988d1408dbe2c3c9aadc23, type: 2}
+    _right: {fileID: 7400000, guid: ebfce1230e9e0a74aafbb2780c32e316, type: 2}
+    _left: {fileID: 7400000, guid: 8616425f5950d264e817859bb406ed64, type: 2}
+  _equipmentType: 4
