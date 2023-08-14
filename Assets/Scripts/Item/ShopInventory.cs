@@ -27,4 +27,9 @@ public class ShopInventory : Inventory
     {
         _sellInventoryUI.OpenInventory(items, buttonAction);
     }
+    
+    public void CloseSellInventory()
+    {
+        _sellInventoryUI.CloseInventory();
+    }
 }

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9549b52333a1abc4f8138b4d7e13eecd, type: 3}
+  m_Name: Short
+  m_EditorClassIdentifier: 
+  _itemName: Short
+  _sprite: {fileID: 1265357409, guid: ef5028e6677abc94989d206f215d7de3, type: 3}
+  _description: 
+  _itemType: 0
+  _price: 100
+  _animationsPack:
+    _idle: {fileID: 7400000, guid: 0432ac7c752f58042b7c6758af604d3d, type: 2}
+    _up: {fileID: 7400000, guid: 45aae2b072ca8d540b087d1e1f7ec106, type: 2}
+    _down: {fileID: 7400000, guid: d05da30cf385d0f4ba8c2df37715e92e, type: 2}
+    _right: {fileID: 7400000, guid: 874dad7c7706c894483599118ef12800, type: 2}
+    _left: {fileID: 7400000, guid: b76490855899b64488e253dcdc924af6, type: 2}
+  _equipmentType: 3

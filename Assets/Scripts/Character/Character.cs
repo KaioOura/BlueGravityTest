@@ -24,10 +24,7 @@ public class Character : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        
-        _animatorReference.SetFloat("Horizontal", input.x);
-        _animatorReference.SetFloat("Vertical", input.y);
+
     }
 
     private void OnDestroy()

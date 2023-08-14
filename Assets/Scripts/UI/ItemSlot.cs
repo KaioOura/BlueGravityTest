@@ -41,14 +41,14 @@ public class ItemSlot : MonoBehaviour
 
     public void UpdateItemSlot(Item item, Action<Item> buttonAction)
     {
+        _slotButton.onClick.RemoveAllListeners();
+        
         _item = item;
         slotImage.sprite = _item.Sprite;
         _priceText.text = item.Price.ToString();
 
-        if (_slotButton == null)
-            Debug.Log(null);
-        
-        _slotButton.onClick.AddListener(() => buttonAction?.Invoke(item));
+        if (buttonAction != null)
+            _slotButton.onClick.AddListener(() => buttonAction?.Invoke(item));
     }
     
 }

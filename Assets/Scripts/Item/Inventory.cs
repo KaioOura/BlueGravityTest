@@ -17,6 +17,8 @@ public class Inventory : MonoBehaviour
 
     public InventoryUI InventoryUI => _inventoryUI;
 
+    public event Action<int> OnCoinsUpdate; 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,15 +34,22 @@ public class Inventory : MonoBehaviour
     public virtual void TryOpenInventory(List<Item> items, Action<Item> buttonAction)
     {
         if (!_isOpen)
+        {
             _inventoryUI.OpenInventory(items, buttonAction);
+            _isOpen = true;
+        }
         else
             CloseInventory();
-
-        _isOpen = !_isOpen;
     }
 
+    public void UpdateInventory(List<Item> items, Action<Item> buttonAction)
+    {
+        _inventoryUI.UpdateInventory(items, buttonAction);
+    }
+    
     public void CloseInventory()
     {
+        _isOpen = false;
         _inventoryUI.CloseInventory();
     }
     
@@ -60,6 +69,8 @@ public class Inventory : MonoBehaviour
         _coins += coinsToAdd;
 
         _coins = Math.Clamp(_coins, 0, 9999);
+        
+        OnCoinsUpdate?.Invoke(_coins);
     }
     
     public void RemoveCoins(int coinsToRemove)
@@ -67,6 +78,8 @@ public class Inventory : MonoBehaviour
         _coins -= coinsToRemove;
 
         _coins = Math.Clamp(_coins, 0, 9999);
+        
+        OnCoinsUpdate?.Invoke(_coins);
     }
     
     public List<Item> GetListOfItems()

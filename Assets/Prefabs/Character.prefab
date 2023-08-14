@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rigidbody2D: {fileID: 926669717}
+  _animatorReference: {fileID: 111216382674780791}
   speed: 5
 --- !u!1 &1518008056
 GameObject:
@@ -140,7 +141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _inventoryUI: {fileID: 0}
   _items: []
-  _coins: 1000
+  _coins: 0
 --- !u!1 &111216380778164911
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,7 +159,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &111216380778164910
 Transform:
   m_ObjectHideFlags: 0
@@ -214,9 +215,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -1236848132, guid: 260dd282b41568c45bc90cae7c30c99e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -504,7 +505,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &111216382432160907
 Transform:
   m_ObjectHideFlags: 0
@@ -560,9 +561,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -1236848132, guid: 260dd282b41568c45bc90cae7c30c99e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -609,7 +610,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &111216382591712133
 Transform:
   m_ObjectHideFlags: 0
@@ -665,9 +666,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -1236848132, guid: 260dd282b41568c45bc90cae7c30c99e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -743,11 +744,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hairAnimationStates:
-    Idle: {fileID: 0}
-    Up: {fileID: 0}
-    Down: {fileID: 0}
-    Right: {fileID: 0}
-    Left: {fileID: 0}
+    Idle: {fileID: 7400000, guid: 5c67c36d029fe88448127547b8ec547e, type: 2}
+    Up: {fileID: 7400000, guid: a8ae0604871e1734b955c42e1cc12232, type: 2}
+    Down: {fileID: 7400000, guid: 227e7fa9d9cfd894ca2869a65f1c7f4d, type: 2}
+    Right: {fileID: 7400000, guid: fd18690aab896f247abc000cf92918c2, type: 2}
+    Left: {fileID: 7400000, guid: d25ffde0dd5f23845bc46718d6a7275c, type: 2}
   _hatAnimationStates:
     Idle: {fileID: 7400000, guid: c3b5155427d4a7c46a4c1b2271d2dde1, type: 2}
     Up: {fileID: 7400000, guid: efab0cd611c40dc4fb80108e90ec36ea, type: 2}
@@ -761,23 +762,28 @@ MonoBehaviour:
     Right: {fileID: 0}
     Left: {fileID: 0}
   _bottomAnimationStates:
-    Idle: {fileID: 0}
-    Up: {fileID: 0}
-    Down: {fileID: 0}
-    Right: {fileID: 0}
-    Left: {fileID: 0}
+    Idle: {fileID: 7400000, guid: d49c3a5b8edb2e6488c262580316d04d, type: 2}
+    Up: {fileID: 7400000, guid: 9f71b24e27c98dd448a305a2e04d2c39, type: 2}
+    Down: {fileID: 7400000, guid: 0871fb250666a8043a7610c97a488294, type: 2}
+    Right: {fileID: 7400000, guid: 4b43809428d92cc43b34fd894f49b0b2, type: 2}
+    Left: {fileID: 7400000, guid: d3c5011acb6c9ae40a4d033b81b49256, type: 2}
   _fullBodyAnimationStates:
-    Idle: {fileID: 0}
-    Up: {fileID: 0}
-    Down: {fileID: 0}
-    Right: {fileID: 0}
-    Left: {fileID: 0}
+    Idle: {fileID: 7400000, guid: 28cce3d5df15bec43a74f32cac048a6c, type: 2}
+    Up: {fileID: 7400000, guid: 315e6176627d3b24ebd2b63b55b00eea, type: 2}
+    Down: {fileID: 7400000, guid: 8bca028235a6f694baf54f8b97200055, type: 2}
+    Right: {fileID: 7400000, guid: 5847735fdecdc114cbeb9dcae0f18a8c, type: 2}
+    Left: {fileID: 7400000, guid: 7bfe4b68825da474e9b4403c5d282d0a, type: 2}
   _animatorOverrideController: {fileID: 22100000, guid: 0b05f45caa697da4cab7eb97f3c262cf, type: 2}
   _bodyAnimator: {fileID: 111216382290127885}
   _hairAnimator: {fileID: 111216382591712132}
   _hatAnimator: {fileID: 111216382683020528}
   _bottomAnimator: {fileID: 111216382432160906}
   _fullBodyPieceAnimator: {fileID: 111216380778164913}
+  _bodySpriteRenderer: {fileID: 111216382290127884}
+  _hairSpriteRenderer: {fileID: 111216382591712135}
+  _hatSpriteRenderer: {fileID: 111216382683020529}
+  _bottomSpriteRenderer: {fileID: 111216382432160909}
+  _fullBodyPieceSpriteRenderer: {fileID: 111216380778164912}
 --- !u!1 &111216382683020527
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,9 +857,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -1236848132, guid: 260dd282b41568c45bc90cae7c30c99e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

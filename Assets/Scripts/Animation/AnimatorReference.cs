@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class AnimatorReference : MonoBehaviour
@@ -32,8 +33,22 @@ public class AnimatorReference : MonoBehaviour
     [SerializeField]
     private Animator _fullBodyPieceAnimator;
     
+    [SerializeField]
+    private SpriteRenderer _bodySpriteRenderer;
+    [SerializeField]
+    private SpriteRenderer _hairSpriteRenderer;
+    [SerializeField]
+    private SpriteRenderer _hatSpriteRenderer;
+    [SerializeField]
+    private SpriteRenderer _bottomSpriteRenderer;
+    [SerializeField]
+    private SpriteRenderer _fullBodyPieceSpriteRenderer;
+    
     private bool test;
-
+    private Color visible = new Color(255, 255, 255, 1);
+    private Color invisable = new Color(255, 255, 255, 0);
+    
+    
     private void Awake()
     {
         //Having 1 variable for each animator will make it easier to get one specific if needed in the future
@@ -68,45 +83,70 @@ public class AnimatorReference : MonoBehaviour
 
     public void OnUpdateAnimations(int i, AnimationsPack animationsPack)
     {
+
+        
         switch (i)
         {
             case 0: //Hair
             {
+                _hairSpriteRenderer.color = visible;
+                _hatSpriteRenderer.color = invisable;
+                
                 _animatorOverrideController[_hairAnimationStates.Idle] = animationsPack.Idle;
                 _animatorOverrideController[_hairAnimationStates.Up] = animationsPack.Up;
                 _animatorOverrideController[_hairAnimationStates.Down] = animationsPack.Down;
                 _animatorOverrideController[_hairAnimationStates.Right] = animationsPack.Right;
                 _animatorOverrideController[_hairAnimationStates.Left] = animationsPack.Left;
+
                 break;
             }
             case 1: //Hat
             {
+                _hairSpriteRenderer.color = invisable;
+                _hatSpriteRenderer.color = visible;
+                
                 _animatorOverrideController[_hatAnimationStates.Idle] = animationsPack.Idle;
                 _animatorOverrideController[_hatAnimationStates.Up] = animationsPack.Up;
                 _animatorOverrideController[_hatAnimationStates.Down] = animationsPack.Down;
                 _animatorOverrideController[_hatAnimationStates.Right] = animationsPack.Right;
                 _animatorOverrideController[_hatAnimationStates.Left] = animationsPack.Left;
+                
                 break;
             }
-            case 2: //Bottom
+            case 2: //Upper
             {
+
+                break;
+            }
+            case 3: //Bottom
+            {
+                _bottomSpriteRenderer.color = visible;
+                _fullBodyPieceSpriteRenderer.color = invisable;
+                
                 _animatorOverrideController[_bottomAnimationStates.Idle] = animationsPack.Idle;
                 _animatorOverrideController[_bottomAnimationStates.Up] = animationsPack.Up;
                 _animatorOverrideController[_bottomAnimationStates.Down] = animationsPack.Down;
                 _animatorOverrideController[_bottomAnimationStates.Right] = animationsPack.Right;
                 _animatorOverrideController[_bottomAnimationStates.Left] = animationsPack.Left;
+                
                 break;
             }
-            case 3: //FullBody
+            case 4: //FullBody
             {
+                _bottomSpriteRenderer.color = invisable;
+                _fullBodyPieceSpriteRenderer.color = visible;
+                
                 _animatorOverrideController[_fullBodyAnimationStates.Idle] = animationsPack.Idle;
                 _animatorOverrideController[_fullBodyAnimationStates.Up] = animationsPack.Up;
                 _animatorOverrideController[_fullBodyAnimationStates.Down] = animationsPack.Down;
                 _animatorOverrideController[_fullBodyAnimationStates.Right] = animationsPack.Right;
                 _animatorOverrideController[_fullBodyAnimationStates.Left] = animationsPack.Left;
+                
                 break;
             }
         }
+        
+        EnableAnimatorLayers();
     }
 
     void UpdateRunTimeAnimatorController()
@@ -121,8 +161,9 @@ public class AnimatorReference : MonoBehaviour
     {
         for (int i = 0; i < _animators.Count; i++)
         {
-            _animators[i].SetLayerWeight(i, 1);
-        }  
+            if (_animators[i].gameObject.activeSelf)
+                _animators[i].SetLayerWeight(i, 1);
+        }
     }
     
     public void SetTrigger(string param)

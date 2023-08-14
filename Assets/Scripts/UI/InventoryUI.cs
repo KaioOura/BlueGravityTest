@@ -63,6 +63,11 @@ public class InventoryUI : MonoBehaviour
     public void OpenInventory(List<Item> items, Action<Item> buttonAction)
     {
         _container.gameObject.SetActive(true);
+        UpdateInventory(items, buttonAction);
+    }
+
+    public void UpdateInventory(List<Item> items, Action<Item> buttonAction = null)
+    {
         PopulateTabs(items, buttonAction);
     }
 

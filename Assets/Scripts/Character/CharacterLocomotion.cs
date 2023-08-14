@@ -5,6 +5,7 @@ using UnityEngine;
 public class CharacterLocomotion : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D _rigidbody2D;
+    [SerializeField] private AnimatorReference _animatorReference;
 
     private Vector2 Move;
     
@@ -20,7 +21,10 @@ public class CharacterLocomotion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         
+        _animatorReference.SetFloat("Horizontal", input.x);
+        _animatorReference.SetFloat("Vertical", input.y);
     }
 
     private void FixedUpdate()

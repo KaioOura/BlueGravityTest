@@ -13,32 +13,65 @@ AnimatorStateMachine:
     m_State: {fileID: -4479097606502594168}
     m_Position: {x: 215.81595, y: 140.0805, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -1768394123091708740}
-    m_Position: {x: -130, y: 200, z: 0}
+    m_State: {fileID: -2478875132140721636}
+    m_Position: {x: 250.81595, y: 205.0805, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 7993911948489063181}
-    m_Position: {x: 12.424225, y: 204.37097, z: 0}
+    m_State: {fileID: 926780818039340255}
+    m_Position: {x: 285.81595, y: 270.0805, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1840619182023228540}
-    m_Position: {x: -60, y: 230, z: 0}
+    m_State: {fileID: 3259826094978436074}
+    m_Position: {x: 320.81595, y: 335.0805, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -5667653878387832057}
-    m_Position: {x: -80, y: 150, z: 0}
+    m_State: {fileID: 600549427768860700}
+    m_Position: {x: 355.81595, y: 400.0805, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -5840122339473918860}
-    m_Position: {x: -45, y: 215, z: 0}
+    m_State: {fileID: -4114868737996354204}
+    m_Position: {x: 390.81595, y: 465.0805, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -1153891490228350878}
-    m_Position: {x: -10, y: 280, z: 0}
+    m_State: {fileID: -8141048965841630939}
+    m_Position: {x: 425.81595, y: 530.0805, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 3910526431862364849}
-    m_Position: {x: 25, y: 345, z: 0}
+    m_State: {fileID: -1638180638111369451}
+    m_Position: {x: 460.81595, y: 595.0805, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 6711667205956396012}
-    m_Position: {x: 60, y: 410, z: 0}
+    m_State: {fileID: -7761578765786145104}
+    m_Position: {x: 495.81595, y: 660.0805, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -6563045419172949708}
-    m_Position: {x: 95, y: 475, z: 0}
+    m_State: {fileID: -8546175364166480627}
+    m_Position: {x: 530.8159, y: 725.0805, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 4199549326802807963}
+    m_Position: {x: 565.8159, y: 790.0805, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -6003417850519160251}
+    m_Position: {x: 600.8159, y: 855.0805, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 8299128878815109480}
+    m_Position: {x: 635.8159, y: 920.0805, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 6870224826900043155}
+    m_Position: {x: 670.8159, y: 985.0805, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -6914370757490845020}
+    m_Position: {x: 705.8159, y: 1050.0806, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 252686569383232152}
+    m_Position: {x: 740.8159, y: 1115.0806, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 8293293692668804968}
+    m_Position: {x: 775.8159, y: 1180.0806, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -1985459831442929283}
+    m_Position: {x: 810.8159, y: 1245.0806, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -4988671086048330195}
+    m_Position: {x: 845.8159, y: 1310.0806, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 8244954160130747356}
+    m_Position: {x: 880.8159, y: 1375.0806, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 5370168867524820669}
+    m_Position: {x: 915.8159, y: 1440.0806, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -49,14 +82,14 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -4479097606502594168}
---- !u!1102 &-6563045419172949708
+--- !u!1102 &-8546175364166480627
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GoldArmor_FullBody_Left
+  m_Name: DiamondArmor_FullBody_Left
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -69,20 +102,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 8616425f5950d264e817859bb406ed64, type: 2}
+  m_Motion: {fileID: 7400000, guid: 59989f65bdb2c3a4b969e15dfb7409fb, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-5840122339473918860
+--- !u!1102 &-8141048965841630939
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GoldArmor_FullBody_Down
+  m_Name: DiamondArmor_FullBody_Down
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -95,20 +128,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: bd2758928e988d1408dbe2c3c9aadc23, type: 2}
+  m_Motion: {fileID: 7400000, guid: 95daa2b0989eeab4dbaf14088932765d, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-5667653878387832057
+--- !u!1102 &-7761578765786145104
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Aviator_Hat_Up
+  m_Name: DiamondArmor_FullBody_Right
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -121,7 +154,85 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 4e2128d2616d1564a8781519e2b2573f, type: 2}
+  m_Motion: {fileID: 7400000, guid: fa14b9cddfecc0640abc6f82b5f2a579, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &-6914370757490845020
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hair1_Hair_Right
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 5ff74133084fcc74798e516602c8b93d, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &-6003417850519160251
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hair1_Hair_Idle
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: f90c2d94f13adc94599c437005107a28, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &-4988671086048330195
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hair2_Hair_Up
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 0615174ad68232f44a46d4bba64e560e, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -153,14 +264,14 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-1768394123091708740
+--- !u!1102 &-4114868737996354204
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Aviator_Hat_Idle
+  m_Name: Short_Bottom_Left
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -173,20 +284,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: d0459ade1a9c6a94aa3e16a51d755e85, type: 2}
+  m_Motion: {fileID: 7400000, guid: b76490855899b64488e253dcdc924af6, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-1153891490228350878
+--- !u!1102 &-2478875132140721636
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GoldArmor_FullBody_Up
+  m_Name: Short_Bottom_Idle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -199,7 +310,59 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 215f4e26b5a8bc24099d0cb9e6828229, type: 2}
+  m_Motion: {fileID: 7400000, guid: 0432ac7c752f58042b7c6758af604d3d, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &-1985459831442929283
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hair2_Hair_Down
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: f2ab21b949b1c9746874130137929140, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &-1638180638111369451
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DiamondArmor_FullBody_Up
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 5f0c686053447544b8205b04a98ba05d, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -227,14 +390,14 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1102 &1840619182023228540
+--- !u!1102 &252686569383232152
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Aviator_Hat_Right
+  m_Name: Hair1_Hair_Left
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -247,20 +410,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: c436a15e64e6dc34184bafc9f20d8cd9, type: 2}
+  m_Motion: {fileID: 7400000, guid: 00dd1d78e06e65c489d595aadfa9ca7e, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &3910526431862364849
+--- !u!1102 &600549427768860700
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GoldArmor_FullBody_Idle
+  m_Name: Short_Bottom_Right
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -273,20 +436,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: d90e7cb3f59746e4b8ff873b34c6a2c0, type: 2}
+  m_Motion: {fileID: 7400000, guid: 874dad7c7706c894483599118ef12800, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &6711667205956396012
+--- !u!1102 &926780818039340255
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GoldArmor_FullBody_Right
+  m_Name: Short_Bottom_Down
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -299,20 +462,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: ebfce1230e9e0a74aafbb2780c32e316, type: 2}
+  m_Motion: {fileID: 7400000, guid: d05da30cf385d0f4ba8c2df37715e92e, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &7993911948489063181
+--- !u!1102 &3259826094978436074
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Aviator_Hat_Left
+  m_Name: Short_Bottom_Up
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -325,7 +488,163 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 45f04f36d1273744c8ba7458c9f2656e, type: 2}
+  m_Motion: {fileID: 7400000, guid: 45aae2b072ca8d540b087d1e1f7ec106, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &4199549326802807963
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DiamondArmor_FullBody_Idle
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 7be9711321de5a241b403804ee5035a1, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &5370168867524820669
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hair2_Hair_Left
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: e135f689cffdba44688d97ca6d9756db, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &6870224826900043155
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hair1_Hair_Up
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: a6f26e89df6600046a569eaa5c6bec8b, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &8244954160130747356
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hair2_Hair_Right
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: ba365876743ad9549bd69bc9da0d3d57, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &8293293692668804968
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hair2_Hair_Idle
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 2a4c6c74ad8ab7246910aa144ca3349b, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &8299128878815109480
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hair1_Hair_Down
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: b7f5bc72eee553a43bb06de0c4f4992d, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

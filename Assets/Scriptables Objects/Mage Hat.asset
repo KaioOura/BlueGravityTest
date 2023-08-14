@@ -16,7 +16,7 @@ MonoBehaviour:
   _sprite: {fileID: -1236848132, guid: 260dd282b41568c45bc90cae7c30c99e, type: 3}
   _description: 
   _itemType: 0
-  _price: 0
+  _price: 100
   _animationsPack:
     _idle: {fileID: 7400000, guid: 77e5fb2fad471fa47b3c8f4ee52b8269, type: 2}
     _up: {fileID: 7400000, guid: 2f933197a492d464bb88b1cf952968c4, type: 2}

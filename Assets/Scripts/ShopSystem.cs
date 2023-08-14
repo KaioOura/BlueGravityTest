@@ -32,6 +32,7 @@ public class ShopSystem : MonoBehaviour, IInteraction
         OnOpenSell += _shopInventory.OpenSellInventory;
 
         OnCloseShop += _shopInventory.CloseInventory;
+        OnCloseShop += _shopInventory.CloseSellInventory;
     }
 
     private void OnDestroy()
@@ -40,6 +41,7 @@ public class ShopSystem : MonoBehaviour, IInteraction
         OnOpenSell -= _shopInventory.OpenSellInventory;
         
         OnCloseShop -= _shopInventory.CloseInventory;
+        OnCloseShop -= _shopInventory.CloseSellInventory;
     }
 
     // Update is called once per frame
@@ -86,6 +88,8 @@ public class ShopSystem : MonoBehaviour, IInteraction
         
         OnOpenShop?.Invoke(_currentStock, TryBuyItem);
         OnOpenSell?.Invoke(_currentSellerStock, TrySellItem);
+        
+        buyerInventory.UpdateInventory(_currentSellerStock, null);
     }
 
     public void TrySellItem(Item item)
@@ -103,6 +107,8 @@ public class ShopSystem : MonoBehaviour, IInteraction
         
         OnOpenShop?.Invoke(_currentStock, TrySellItem);
         OnOpenSell?.Invoke(_currentSellerStock, TrySellItem);
+        
+        buyerInventory.UpdateInventory(_currentSellerStock, null);
     }
     
     public void Interact()
